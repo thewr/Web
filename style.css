@@ -1,0 +1,82 @@
+/* Customized Theme for Cordova */
+/*!
+ * Bootstrap v3.3.5 (http://getbootstrap.com)
+ * Copyright 2011-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+  body {
+    margin: 0;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+h1.title{
+  font-size: 2rem;
+}
+
+.header {
+  background-color: #333;
+  color: white;
+  padding: 10px 15px;
+}
+
+.header li{
+  position: relative;
+  display: inline;
+}
+.header li .logo{
+  display: block;
+}
+
+img#logo_top {
+    width: 150px;
+    padding-bottom:5px;
+}
+
+input{
+  width:300px;
+}
+
+.item {
+  border: 1px solid lightcoral;
+  padding:8px;
+  text-align: center;
+  line-height: 10px;
+  font-weight: 600;
+}
+
+.docs{
+  padding:16px;
+}
+
+.parent {
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.parent {
+  margin: 20px 50px 50px 100px;
+  border: 2px solid lightcoral;
+  width:50%;
+}
+
+/*hold view of the doc with header above*/
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement*/
+.sticky + .docs {
+  padding-top: 102px;
+}
